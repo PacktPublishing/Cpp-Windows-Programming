@@ -1,0 +1,75 @@
+﻿Build started 2012-03-07 19:20:22.
+     1>Project "C:\Users\stefanb\Dropbox\C Windows Programming\Calc\Calc.vcxproj" on node 3 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Calc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\BTree.c ..\Matrix.c ..\Unit.c ..\UnitScroll.c Calc.c Cell.c Command.c Error.c Keyboard.c ..\List.c Parser.c Reference.c Scanner.c ..\Set.c TSetMatrix.c
+         TSetMatrix.c
+         Set.c
+         Scanner.c
+         Reference.c
+         Parser.c
+         List.c
+         Keyboard.c
+         Error.c
+         Command.c
+         Cell.c
+         Calc.c
+         UnitScroll.c
+         Unit.c
+         Matrix.c
+         BTree.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Calc.res" Calc.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Calc.exe.embed.manifest.res" Debug\Calc_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\stefanb\Dropbox\C Windows Programming\Debug\Calc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Calc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\stefanb\Dropbox\C Windows Programming\Debug\Calc.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\stefanb\Dropbox\C Windows Programming\Debug\Calc.lib" /MACHINE:X86 Debug\Calc.res
+         Debug\Calc.exe.embed.manifest.res
+         Debug\BTree.obj
+         Debug\Matrix.obj
+         Debug\Unit.obj
+         Debug\UnitScroll.obj
+         Debug\Calc.obj
+         Debug\Cell.obj
+         Debug\Command.obj
+         Debug\Error.obj
+         Debug\Keyboard.obj
+         Debug\List.obj
+         Debug\Parser.obj
+         Debug\Reference.obj
+         Debug\Scanner.obj
+         Debug\Set.obj
+         Debug\TSetMatrix.obj
+       Manifest:
+         Deleting file "Debug\Calc.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Calc.exe.embed.manifest" /manifest Debug\Calc.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Calc.exe.embed.manifest.res" Debug\Calc_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\stefanb\Dropbox\C Windows Programming\Debug\Calc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Calc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\stefanb\Dropbox\C Windows Programming\Debug\Calc.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\stefanb\Dropbox\C Windows Programming\Debug\Calc.lib" /MACHINE:X86 Debug\Calc.res
+         Debug\Calc.exe.embed.manifest.res
+         Debug\BTree.obj
+         Debug\Matrix.obj
+         Debug\Unit.obj
+         Debug\UnitScroll.obj
+         Debug\Calc.obj
+         Debug\Cell.obj
+         Debug\Command.obj
+         Debug\Error.obj
+         Debug\Keyboard.obj
+         Debug\List.obj
+         Debug\Parser.obj
+         Debug\Reference.obj
+         Debug\Scanner.obj
+         Debug\Set.obj
+         Debug\TSetMatrix.obj
+         Calc.vcxproj -> C:\Users\stefanb\Dropbox\C Windows Programming\Debug\Calc.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Calc.unsuccessfulbuild".
+         Touching "Debug\Calc.lastbuildstate".
+     1>Done Building Project "C:\Users\stefanb\Dropbox\C Windows Programming\Calc\Calc.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.22

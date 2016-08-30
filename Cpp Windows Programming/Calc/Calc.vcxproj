@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E96A6170-CA04-4F97-B726-BA7CCFE38AAD}</ProjectGuid>
+    <RootNamespace>Calc</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>CalcApplication</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SmallWindows\Accelerator.cpp" />
+    <ClCompile Include="..\SmallWindows\Application.cpp" />
+    <ClCompile Include="..\SmallWindows\Clipboard.cpp" />
+    <ClCompile Include="..\SmallWindows\Color.cpp" />
+    <ClCompile Include="..\SmallWindows\Command.cpp" />
+    <ClCompile Include="..\SmallWindows\Complex.cpp" />
+    <ClCompile Include="..\SmallWindows\Controls\ButtonControl.cpp" />
+    <ClCompile Include="..\SmallWindows\Controls\CheckBox.cpp" />
+    <ClCompile Include="..\SmallWindows\Controls\ComboBox.cpp" />
+    <ClCompile Include="..\SmallWindows\Controls\Control.cpp" />
+    <ClCompile Include="..\SmallWindows\Controls\GroupBox.cpp" />
+    <ClCompile Include="..\SmallWindows\Controls\Label.cpp" />
+    <ClCompile Include="..\SmallWindows\Controls\ListBox.cpp" />
+    <ClCompile Include="..\SmallWindows\Controls\ListControl.cpp" />
+    <ClCompile Include="..\SmallWindows\Controls\MultipleListBox.cpp" />
+    <ClCompile Include="..\SmallWindows\Controls\PushButton.cpp" />
+    <ClCompile Include="..\SmallWindows\Controls\RadioButton.cpp" />
+    <ClCompile Include="..\SmallWindows\Controls\TextField.cpp" />
+    <ClCompile Include="..\SmallWindows\Converter.cpp" />
+    <ClCompile Include="..\SmallWindows\Cursor.cpp" />
+    <ClCompile Include="..\SmallWindows\Dialog.cpp" />
+    <ClCompile Include="..\SmallWindows\Document.cpp" />
+    <ClCompile Include="..\SmallWindows\DynamicList.cpp" />
+    <ClCompile Include="..\SmallWindows\Font.cpp" />
+    <ClCompile Include="..\SmallWindows\Graphics.cpp" />
+    <ClCompile Include="..\SmallWindows\InfoList.cpp" />
+    <ClCompile Include="..\SmallWindows\Matrix.cpp" />
+    <ClCompile Include="..\SmallWindows\Menu.cpp" />
+    <ClCompile Include="..\SmallWindows\PageSetupDialog.cpp" />
+    <ClCompile Include="..\SmallWindows\PageSetupInfo.cpp" />
+    <ClCompile Include="..\SmallWindows\Point.cpp" />
+    <ClCompile Include="..\SmallWindows\PrintPreviewDocument.cpp" />
+    <ClCompile Include="..\SmallWindows\Rational.cpp" />
+    <ClCompile Include="..\SmallWindows\Rect.cpp" />
+    <ClCompile Include="..\SmallWindows\Reference.cpp" />
+    <ClCompile Include="..\SmallWindows\Registry.cpp" />
+    <ClCompile Include="..\SmallWindows\Size.cpp" />
+    <ClCompile Include="..\SmallWindows\SmallWindows.cpp" />
+    <ClCompile Include="..\SmallWindows\StandardDialog.cpp" />
+    <ClCompile Include="..\SmallWindows\StandardDocument.cpp" />
+    <ClCompile Include="..\SmallWindows\String.cpp" />
+    <ClCompile Include="..\SmallWindows\Template.cpp" />
+    <ClCompile Include="..\SmallWindows\Tree.cpp" />
+    <ClCompile Include="..\SmallWindows\Window.cpp" />
+    <ClCompile Include="..\SmallWindows\WinMain.cpp" />
+    <ClCompile Include="CalcDocument.cpp" />
+    <ClCompile Include="CalcEvaluate.cpp" />
+    <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="CalcCommand.cpp" />
+    <ClCompile Include="Error.cpp" />
+    <ClCompile Include="CalcKeyboard.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="Scanner.cpp" />
+    <ClCompile Include="Token.cpp" />
+    <ClCompile Include="TreeNode.cpp" />
+    <ClCompile Include="Triple.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SmallWindows\Accelerator.h" />
+    <ClInclude Include="..\SmallWindows\Application.h" />
+    <ClInclude Include="..\SmallWindows\Clipboard.h" />
+    <ClInclude Include="..\SmallWindows\Color.h" />
+    <ClInclude Include="..\SmallWindows\Command.h" />
+    <ClInclude Include="..\SmallWindows\Complex.h" />
+    <ClInclude Include="..\SmallWindows\Components\BoxControl.h" />
+    <ClInclude Include="..\SmallWindows\Components\ListControl.h" />
+    <ClInclude Include="..\SmallWindows\Controls\ButtonControl.h" />
+    <ClInclude Include="..\SmallWindows\Controls\CheckBox.h" />
+    <ClInclude Include="..\SmallWindows\Controls\ComboBox.h" />
+    <ClInclude Include="..\SmallWindows\Controls\Control.h" />
+    <ClInclude Include="..\SmallWindows\Controls\GroupBox.h" />
+    <ClInclude Include="..\SmallWindows\Controls\Label.h" />
+    <ClInclude Include="..\SmallWindows\Controls\ListBox.h" />
+    <ClInclude Include="..\SmallWindows\Controls\ListControl.h" />
+    <ClInclude Include="..\SmallWindows\Controls\MultipleListBox.h" />
+    <ClInclude Include="..\SmallWindows\Controls\PushButton.h" />
+    <ClInclude Include="..\SmallWindows\Controls\RadioButton.h" />
+    <ClInclude Include="..\SmallWindows\Controls\TextField.h" />
+    <ClInclude Include="..\SmallWindows\Converter.h" />
+    <ClInclude Include="..\SmallWindows\Cursor.h" />
+    <ClInclude Include="..\SmallWindows\Dialog.h" />
+    <ClInclude Include="..\SmallWindows\Document.h" />
+    <ClInclude Include="..\SmallWindows\DynamicList.h" />
+    <ClInclude Include="..\SmallWindows\Font.h" />
+    <ClInclude Include="..\SmallWindows\Graphics.h" />
+    <ClInclude Include="..\SmallWindows\InfoList.h" />
+    <ClInclude Include="..\SmallWindows\MainWindow.h" />
+    <ClInclude Include="..\SmallWindows\Matrix.h" />
+    <ClInclude Include="..\SmallWindows\Menu.h" />
+    <ClInclude Include="..\SmallWindows\PageSetupDialog.h" />
+    <ClInclude Include="..\SmallWindows\PageSetupInfo.h" />
+    <ClInclude Include="..\SmallWindows\Point.h" />
+    <ClInclude Include="..\SmallWindows\PrintPreviewDocument.h" />
+    <ClInclude Include="..\SmallWindows\Rational.h" />
+    <ClInclude Include="..\SmallWindows\Rect.h" />
+    <ClInclude Include="..\SmallWindows\Reference.h" />
+    <ClInclude Include="..\SmallWindows\Registry.h" />
+    <ClInclude Include="..\SmallWindows\Size.h" />
+    <ClInclude Include="..\SmallWindows\SmallWindows.h" />
+    <ClInclude Include="..\SmallWindows\StandardDialog.h" />
+    <ClInclude Include="..\SmallWindows\StandardDocument.h" />
+    <ClInclude Include="..\SmallWindows\String.h" />
+    <ClInclude Include="..\SmallWindows\Template.h" />
+    <ClInclude Include="..\SmallWindows\Tree.h" />
+    <ClInclude Include="..\SmallWindows\Window.h" />
+    <ClInclude Include="CalcDocument.h" />
+    <ClInclude Include="Cell.h" />
+    <ClInclude Include="Error.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="Scanner.h" />
+    <ClInclude Include="Token.h" />
+    <ClInclude Include="TreeNode.h" />
+    <ClInclude Include="Triple.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

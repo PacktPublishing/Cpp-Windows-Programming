@@ -1,0 +1,64 @@
+#include <Windows.h>
+#include "Resource.h"
+
+//IDR_ICON ICON "res\\Draw.ico"
+
+IDR_MENUBAR MENU 
+BEGIN
+  POPUP "&File"
+  BEGIN
+    MENUITEM "&New\tCtrl+N", ID_FILE_NEW
+    MENUITEM "&Open...\tCtrl+O", ID_FILE_OPEN
+    MENUITEM "&Save\tCtrl+S", ID_FILE_SAVE
+    MENUITEM "Save &As...", ID_FILE_SAVEAS
+    MENUITEM SEPARATOR
+    MENUITEM "E&xit", ID_APP_EXIT
+  END
+  POPUP "&Edit"
+  BEGIN
+    MENUITEM "Cu&t\tCtrl+X", ID_EDIT_CUT
+    MENUITEM "&Copy\tCtrl+C", ID_EDIT_COPY
+    MENUITEM "&Paste\tCtrl+V", ID_EDIT_PASTE
+    MENUITEM SEPARATOR
+    MENUITEM "&Delete\tDelete", ID_EDIT_DELETE
+  END
+  POPUP "F&ormat"
+  BEGIN
+    MENUITEM "&Modify\tCtrl-M", Modify
+    MENUITEM "&Color...\tAlt-C", ID_FORMAT_COLOR
+    MENUITEM "&Font...\tCtrl-F", ID_FORMAT_FONT
+    MENUITEM "F&ill\tCtrl-I", ID_FORMAT_FILL
+  END
+  POPUP "&Add"
+  BEGIN
+    MENUITEM "&Line\tCtrl-L", AddLine
+    MENUITEM "&Arrow\tCtrl-A", AddArrow
+    MENUITEM "&Rectangle\tCtrl-R", AddRectangle
+    MENUITEM "&Ellipse\tCtrl-E", AddEllipse
+    MENUITEM "&Text\tCtrl-T", AddText
+  END
+  POPUP "&Help"
+  BEGIN
+    MENUITEM "&About Draw ...", ID_APP_ABOUT
+  END
+END
+
+IDR_ACCELTABLE ACCELERATORS
+BEGIN
+  "N", ID_FILE_NEW, VIRTKEY, CONTROL
+  "O", ID_FILE_OPEN, VIRTKEY, CONTROL
+  "S", ID_FILE_SAVE, VIRTKEY, CONTROL
+  "X", ID_EDIT_CUT, VIRTKEY, CONTROL
+  "C", ID_EDIT_COPY, VIRTKEY, CONTROL
+  "V", ID_EDIT_PASTE, VIRTKEY, CONTROL
+  VK_DELETE, ID_EDIT_DELETE, VIRTKEY
+  "L", AddLine, VIRTKEY, CONTROL
+  "A", AddArrow, VIRTKEY, CONTROL
+  "R", AddRectangle, VIRTKEY, CONTROL
+  "E", AddEllipse, VIRTKEY, CONTROL
+  "T", AddText, VIRTKEY, CONTROL
+  "M", Modify, VIRTKEY, CONTROL
+  "F", ID_FORMAT_FONT, VIRTKEY, CONTROL
+  "C", ID_FORMAT_COLOR, VIRTKEY, ALT
+  "I", ID_FORMAT_FILL, VIRTKEY, CONTROL
+END

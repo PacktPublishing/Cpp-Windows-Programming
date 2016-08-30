@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Small Windows">
+      <UniqueIdentifier>{48ec0e4c-62ee-4749-82e9-3eac3a7426ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Small Windows">
+      <UniqueIdentifier>{5e4f71d3-e3a0-49a7-93b3-7d84273f9fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Small Windows\Controls">
+      <UniqueIdentifier>{44be0da0-e543-4dba-850c-5278adbf3c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Small Windows\Controls">
+      <UniqueIdentifier>{a3f606d5-dc9a-451c-80dc-3cbc10818440}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\SmallWindows\Accelerator.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Color.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Cursor.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Font.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Graphics.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Menu.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Point.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Rect.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Size.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\SmallWindows.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Window.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Dialog.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Application.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Document.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="WordDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Converter.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="CharInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Clipboard.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Tree.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\PrintPreviewDocument.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Template.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\StandardDocument.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Registry.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\String.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\MainWindow.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Paragraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\DynamicList.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="LineInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Command.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\PageSetupDialog.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\PageSetupInfo.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Rational.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Complex.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\InfoList.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Controls\ButtonControl.h">
+      <Filter>Header Files\Small Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Controls\CheckBox.h">
+      <Filter>Header Files\Small Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Controls\ComboBox.h">
+      <Filter>Header Files\Small Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Controls\Control.h">
+      <Filter>Header Files\Small Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Controls\GroupBox.h">
+      <Filter>Header Files\Small Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Controls\Label.h">
+      <Filter>Header Files\Small Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Controls\ListBox.h">
+      <Filter>Header Files\Small Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Controls\ListControl.h">
+      <Filter>Header Files\Small Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Controls\MultipleListBox.h">
+      <Filter>Header Files\Small Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Controls\PushButton.h">
+      <Filter>Header Files\Small Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Controls\RadioButton.h">
+      <Filter>Header Files\Small Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\Controls\TextField.h">
+      <Filter>Header Files\Small Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SmallWindows\StandardDialog.h">
+      <Filter>Header Files\Small Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SmallWindows\Accelerator.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Color.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Cursor.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Font.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Menu.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Point.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Rect.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Size.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Window.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Dialog.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Application.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Document.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="WordDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Converter.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="CharInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Clipboard.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Tree.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\PrintPreviewDocument.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Template.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Graphics.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\SmallWindows.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\StandardDocument.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="WordCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WordKeyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Registry.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\String.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\WinMain.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="WordCalculate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Paragraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\DynamicList.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="LineInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Command.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\PageSetupDialog.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\PageSetupInfo.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Rational.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Complex.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\InfoList.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Controls\CheckBox.cpp">
+      <Filter>Source Files\Small Windows\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Controls\ComboBox.cpp">
+      <Filter>Source Files\Small Windows\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Controls\Control.cpp">
+      <Filter>Source Files\Small Windows\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Controls\GroupBox.cpp">
+      <Filter>Source Files\Small Windows\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Controls\Label.cpp">
+      <Filter>Source Files\Small Windows\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Controls\ListBox.cpp">
+      <Filter>Source Files\Small Windows\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Controls\ListControl.cpp">
+      <Filter>Source Files\Small Windows\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Controls\MultipleListBox.cpp">
+      <Filter>Source Files\Small Windows\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Controls\PushButton.cpp">
+      <Filter>Source Files\Small Windows\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Controls\RadioButton.cpp">
+      <Filter>Source Files\Small Windows\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Controls\TextField.cpp">
+      <Filter>Source Files\Small Windows\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\Controls\ButtonControl.cpp">
+      <Filter>Source Files\Small Windows\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SmallWindows\StandardDialog.cpp">
+      <Filter>Source Files\Small Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
