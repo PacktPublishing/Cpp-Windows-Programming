@@ -30,3 +30,7 @@ HelloWindow::HelloWindow(WindowShow windowShow)
 * [Beginning C++ Game Programming](https://www.packtpub.com/game-development/beginning-c-game-programming?utm_source=github&utm_medium=repository&utm_campaign=9781786466198)
 
 * [Windows Phone 7.5 Application Development with F#](https://www.packtpub.com/application-development/windows-phone-75-application-development-f?utm_source=github&utm_medium=repository&utm_campaign=9781849687843)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781786464224">https://packt.link/free-ebook/9781786464224 </a> </p>
